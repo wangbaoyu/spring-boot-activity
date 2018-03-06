@@ -16,6 +16,9 @@
     <select id="selectUserByUserId"  resultType="user">
         SELECT * FROM user WHERE userid = #{userId}
     </select>
+    <select id="selectUserByUserName"  resultType="user">
+        SELECT * FROM user WHERE username = #{userName}
+    </select>
     <insert id="saveUser" parameterType="java.util.Map">
         INSERT INTO  USER  (userid,username,password) VALUES (#{userId},#{userName},#{passWord})
     </insert>

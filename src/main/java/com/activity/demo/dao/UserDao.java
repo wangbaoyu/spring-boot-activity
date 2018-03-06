@@ -17,5 +17,4 @@ public interface UserDao {
 
     void saveUser(Map<String,Object>  useMap);
 
-    String selectMaxUserID();
 }
