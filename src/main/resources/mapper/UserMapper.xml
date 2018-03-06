@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.activity.demo.dao.UserDao" >
+    <resultMap id="user" type="java.util.Map">
+        <collection property="id" column="id"/>
+        <collection property="userId" column="userid"/>
+        <collection property="userName" column="username"/>
+        <collection property="passWord" column="password"/>
+        <collection property="phone" column="phone"/>
+        <collection property="email" column="email"/>
+        <collection property="address" column="address"/>
+    </resultMap>
+    <select id="userLogin"  resultType="user">
+        SELECT * FROM user WHERE username = #{userName} AND password = #{passWord}
+    </select>
+    <select id="selectUserByUserId"  resultType="user">
+        SELECT * FROM user WHERE userid = #{userId}
+    </select>
+    <insert id="saveUser" parameterType="java.util.Map">
+        INSERT INTO  USER  (userid,username,password) VALUES (#{userId},#{userName},#{passWord})
+    </insert>
+
+</mapper>
