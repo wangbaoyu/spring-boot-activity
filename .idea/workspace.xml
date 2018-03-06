@@ -703,7 +703,7 @@
       <workItem from="1520318809982" duration="140000" />
       <workItem from="1520318970831" duration="391000" />
       <workItem from="1520319384696" duration="210000" />
-      <workItem from="1520320823234" duration="732000" />
+      <workItem from="1520320823234" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1519973025224</created>
@@ -719,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520321017593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update sql语句">
+      <created>1520321595419</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520321595419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -734,7 +741,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46880000" />
+    <option name="totallyTimeSpent" value="46927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -790,6 +797,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
